@@ -13,7 +13,7 @@ describe('update', function() {
           b: 22,
           c: 33
         },
-        unChanged: {},
+        unChanged: {}
       };
       commands = { a: { c: {$set: 44} } };
       nextState = update(state, commands);
