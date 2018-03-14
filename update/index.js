@@ -6,4 +6,4 @@ function update(state, commands) {
 
 module.exports = update
 
-  // return Object.assign({}, state, {a: {b: 22, c: commands.a.c.$set}});
+  return Object.assign({}, state, {a: {b: 22, c: commands.a.c.$set}});
